@@ -8,9 +8,12 @@ const config = {
 			assets: 'build',
 			fallback: 'index.html'
 		}),
-		paths: {
-			base: '/Actividad_2_jb'
-		}
+paths: {
+  base: '/Actividad_2_jb'
+},
+prerender: {
+  entries: ['*']
+}
 	}
 };
 
